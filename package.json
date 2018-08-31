@@ -1,0 +1,24 @@
+{
+  "name": "manual-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node -e js",
+    "test": "NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.*",
+    "babel-eslint": "9.0.*",
+    "babel-plugin-transform-class-properties": "6.24.*",
+    "babel-preset-env": "1.7.*",
+    "eslint": "5.4.*",
+    "eslint-config-airbnb": "17.1.*",
+    "eslint-plugin-import": "2.14.*",
+    "eslint-plugin-jest": "21.22.*",
+    "eslint-plugin-jsx-a11y": "6.1.*",
+    "eslint-plugin-react": "7.11.*",
+    "jest": "23.5.*",
+    "nodemon": "1.18.*"
+  }
+}
